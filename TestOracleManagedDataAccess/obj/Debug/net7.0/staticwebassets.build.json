@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "pQscthgdb/dLo0qzaITqlQQZ5aPXNehIjEZbjhvJOF0=",
+  "Source": "TestOracleManagedDataAccess",
+  "BasePath": "_content/TestOracleManagedDataAccess",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
