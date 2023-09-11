@@ -1,16 +1,31 @@
 {
   "version": 2,
-  "dgSpecHash": "HK1qXb03y6rGsv6bPrRvmQpoIKUjme/sGhRBMOfORcEjqC7iGlpsAdylSEahZ8dS9NHzReHBld3gREeijUBpuw==",
+  "dgSpecHash": "x8nZB9fLPf5tXKyqlTl02YUYYzN9CE9fxs1LjMdXeY4w0KDTBDWLelenGD7l4o/7YEEPmEtvYUhq8iadjyyATA==",
   "success": true,
   "projectFilePath": "/Users/kwabena/Projects/TestOracleManagedDataAccess/TestOracleManagedDataAccess/TestOracleManagedDataAccess.csproj",
   "expectedPackageFiles": [
     "/Users/kwabena/.nuget/packages/microsoft.aspnetcore.openapi/7.0.10/microsoft.aspnetcore.openapi.7.0.10.nupkg.sha512",
     "/Users/kwabena/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "/Users/kwabena/.nuget/packages/microsoft.openapi/1.4.3/microsoft.openapi.1.4.3.nupkg.sha512",
+    "/Users/kwabena/.nuget/packages/oracle.manageddataaccess/21.11.0/oracle.manageddataaccess.21.11.0.nupkg.sha512",
     "/Users/kwabena/.nuget/packages/swashbuckle.aspnetcore/6.5.0/swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
     "/Users/kwabena/.nuget/packages/swashbuckle.aspnetcore.swagger/6.5.0/swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
     "/Users/kwabena/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.5.0/swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
-    "/Users/kwabena/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.5.0/swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512"
+    "/Users/kwabena/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.5.0/swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512",
+    "/Users/kwabena/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "/Users/kwabena/.nuget/packages/system.text.encodings.web/6.0.0/system.text.encodings.web.6.0.0.nupkg.sha512",
+    "/Users/kwabena/.nuget/packages/system.text.json/6.0.1/system.text.json.6.0.1.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Oracle.ManagedDataAccess 21.11.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Oracle.ManagedDataAccess",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    }
+  ]
 }
